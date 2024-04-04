@@ -1,0 +1,2 @@
+idf_component_register(SRCS "i2c_example_main.c"  "LSM6DO_capteur.c" "LIS2MDL_Capteur.c" "./LSM6DSO/lsm6dso_reg.c" "./LIS2MDL/lis2mdl_reg.c" "./BLE/ble_init.c" "./BLE/gatt_server_profile.c" "./BLE/gatt_ser_gatt.c" "./WIFI_SNTP_RTC/WIFI_SNTP_RTC_SYNC.c" "./Gestion_Affichage_LCD/Gestion_affichage.c"
+                       INCLUDE_DIRS "." "./BLE" "./LSM6DSO" "./LIS2MDL" "./WIFI_SNTP_RTC" "./Gestion_Affichage_LCD")
